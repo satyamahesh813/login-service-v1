@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+
+<configuration>
+	<mappers>
+		
+		<mapper resource="META_INF/config/mappers/ErrorInfoMapper.xml"/>
+		<mapper resource="META_INF/config/mappers/RolePermissionsMapper.xml"/>
+		<mapper resource="META_INF/config/mappers/RolesMapper.xml"/>
+		<mapper resource="META_INF/config/mappers/UserRolesMapper.xml"/>
+		<mapper resource="META_INF/config/mappers/UsersMapper.xml"/>
+		<mapper resource="META_INF/config/mappers/ForgotPasswordMapper.xml"/>
+		
+	</mappers>
+</configuration>

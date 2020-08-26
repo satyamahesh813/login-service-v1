@@ -1,0 +1,10 @@
+server:
+  port:8002
+
+
+spring:
+  profiles:
+    active: sit
+
+customer:
+  properties: 'classpath:properties/application-${spring.profiles.active}.properties'
